@@ -5,7 +5,7 @@ bool AS_LONG_AS_START = true;
 unsigned long GLOBAL_ASLONGAS_COUNTER = 0;
 unsigned long ASLONGAS_FSSIZE = 0;
 
-void reset_while_this(){
+void reset_aslongas(){
     AS_LONG_AS_START = true;
     GLOBAL_ASLONGAS_COUNTER = 0;
     ASLONGAS_FSSIZE = 0;
@@ -46,7 +46,7 @@ void aslongas(bool &expression, T func, ST... fs){
     }
 
     if(expression){
-        reset_while_this();
+        reset_aslongas();
         goto __aslong__as__;
     }
 
