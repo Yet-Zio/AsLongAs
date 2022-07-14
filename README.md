@@ -150,5 +150,3 @@ void aslongas(bool &expression, T func, ST... fs){
     });
 
 ```
-
-Hopefully, this solves the problem, but it can be improved more with new code, there's probably no need of this. Im sure there's a better solution to this that Im unaware of.
