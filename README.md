@@ -53,7 +53,7 @@ Since being an entry controlled loop, while loop checks the condition first, the
 However, as the 2nd section provided, the loop does not check or guarantee by itself if the condition is true or false during the execution of the loop body.
 
 ## 4. The Actual Solution
-The actual solution to this is quite simple and probably anyone can guess it. A loop that checks the condition provided after execution of each statement and breaks out of it if the condition ever becomes false. We can call it "As Long As" for now. Could have provided a better name, but anyway this is how it works:
+The actual solution to this is quite simple and probably anyone can guess it. A loop that checks the condition provided after execution of each statement and breaks out of it if the condition ever becomes false. We can call it "**As Long As**" for now. Could have provided a better name, but anyway this is how it works:
 
 ![aslongas loop](https://raw.githubusercontent.com/Yet-Zio/AsLongAs/main/img/aslongasloop.png?token=GHSAT0AAAAAABRX372XK3KMA7YQBZ4IOEQGYWQH4AA)
 
@@ -151,4 +151,4 @@ void aslongas(bool &expression, T func, ST... fs){
 
 ```
 
-Hopefully, this solves the problem but it can be improved more with new code, there's probably no need of this. Im sure there's a better solution to this that Im unaware of.
+Hopefully, this solves the problem, but it can be improved more with new code, there's probably no need of this. Im sure there's a better solution to this that Im unaware of.
