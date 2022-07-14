@@ -26,9 +26,9 @@ int main() {
     },
     [&ex](){
         printf_s("What is your name?");
-        int ch;
-        scanf_s("%d", &ch);
-        if(ch == 5){
+        std::string ch;
+        std::cin >> ch;
+        if(ch == "Bob"){
             ex = false;
         }
     },
