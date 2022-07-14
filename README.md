@@ -42,7 +42,7 @@ while(condition){
 - The loop does not itself guarantee that the condition is true while running.
 
 ## 3. How while loop works
-![while loop](https://raw.githubusercontent.com/Yet-Zio/AsLongAs/main/img/whileloop.png?token=GHSAT0AAAAAABRX372XHASVLYCW5LX4HALGYWQH3WQ)
+![while loop](https://raw.githubusercontent.com/Yet-Zio/AsLongAs/main/img/whileloop.png?token=GHSAT0AAAAAABRX372WZH7HPU7NZZN5ANICYWQICPQ)
 
 > A while loop is a control flow statement that allows code to be executed repeatedly based on a given Boolean condition. The while loop can be thought of as a repeating if statement.
 > -- <cite>[Wikipedia][1]</cite>
@@ -55,7 +55,7 @@ However, as the 2nd section provided, the loop does not check or guarantee by it
 ## 4. The Actual Solution
 The actual solution to this is quite simple and probably anyone can guess it. A loop that checks the condition provided after execution of each statement and breaks out of it if the condition ever becomes false. We can call it "**As Long As**" for now. Could have provided a better name, but anyway this is how it works:
 
-![aslongas loop](https://raw.githubusercontent.com/Yet-Zio/AsLongAs/main/img/aslongasloop.png?token=GHSAT0AAAAAABRX372XK3KMA7YQBZ4IOEQGYWQH4AA)
+![aslongas loop](https://raw.githubusercontent.com/Yet-Zio/AsLongAs/main/img/aslongasloop.png?token=GHSAT0AAAAAABRX372W6CO6W4AWNDTSZIEQYWQICYQ)
 
 This can be seen as an automated process or function of the loop instead of providing a conditional statement.
 
